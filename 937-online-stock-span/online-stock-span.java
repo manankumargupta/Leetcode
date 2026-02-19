@@ -1,8 +1,5 @@
 class StockSpanner {
     private Deque<int []> stack = new ArrayDeque<>();
-    public StockSpanner() {
-        
-    }
     
     public int next(int price) {
         int count = 1;
